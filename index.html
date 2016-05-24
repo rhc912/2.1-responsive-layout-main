@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <!-- Meta Tags !-->
+  <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Responsive Layout</title>
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet'>
+  <!-- Stylesheets -->
     <link rel="stylesheet" href="styles/bootstrap">
     <link rel="stylesheet" href="assets/main.css">
   </head>
   <body>
   <div class="container">
-  <!-- Header !-->
-    <header>
+  <!-- Header -->
+    <header class="pretty-color">
       <div class="branding row">
         <div class="col-md-12">
+        <div class="logo-container">
           <img class="logo" src="images/bike.png">
-
-          <h1></h1>
+        </div>
+          <h1 class="swamp"><marquee>Swamp Rabbit Cycling</marquee></h1>
 
         </div>
       </div>
@@ -25,15 +29,46 @@
     </header>
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
-          <p></p>
+          <p class="bike-gear">Bringing you the best in bicycle gear, equipment, and community since 1999!</p>
         </div>
       </div>
+          <div class="bikes row">
+          <div class="col-md-12">
+            <div class="image-centering">
+              <div class="bike-one">
+                <img class="bike-pic-1" src="images/bike-1.jpeg">
+              </div>
 
+              <div class="bike-two">
+                <img class="bike-pic-2" src="images/bike-two.jpg">
+              </div>
+              <div class="bike-three">
+                <img class="bike-pic-3" src="images/bike-three.jpg">
+              </div>
+            </div>
+         </div>
+       </div>
+          <div class="community row">
+            <div class="col-md-8 col-md-offset-2">
+              <p>From mountain bikes to kids training wheels, we've got what you need. Come join us for our Saturday community events or just stop by to say hello!</p>
+            </div>
+          </div>
 
+          <div class="call row">
+            <div class="col-md-8 col-md-offset-2">
+              <p class="copy">Visit, call or email us today and get the most out of your bike riding experience!</p>
+              <p class="copy">(202) 555-0127</p>
+              <p class="copy">swamprabbitcycling@example.com</p>
+            </div>
+          </div>
 
-
-
-  </div>
-
+    <!-- Google Maps -->
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:200px;width:200px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://privacypolicytemplate.net">privacy policy template</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(34.8519252,-82.39994919999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(34.8519252,-82.39994919999998)});infowindow = new google.maps.InfoWindow({content:'<strong>Swamp Rabbit Cycling</strong><br>101 N Main St #400, Greenville, SC 29601<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    <!-- Footer !-->
+      <footer class="feeter">
+          <h3 class="text-center">
+            <small>2014 Swamp Rabbit Cycling, LLC.</small>
+          </h3>
+      </footer>
   </body>
 </html>

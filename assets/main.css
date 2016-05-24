@@ -1,3 +1,80 @@
 .container{
-  background-color:red;
+  max-width: 978px;
+  background-color: rgba(0,211,81,0.5);
+  font-family: 'Oswald', sans-serif;
+}
+.pretty-color{
+  background-color: rgba(24,176,252,0.5);
+  background-size: cover;
+}
+.logo-container{
+  width: 20%;
+  margin: 0 auto;
+}
+.logo{
+  max-width: 100%;
+}
+marquee{
+  letter-spacing: 6px;
+}
+.swamp{
+
+  text-align: center;
+}
+.copy{
+  text-align: center;
+}
+.bike-gear{
+  text-align: center;
+}
+/* Images */
+.bike-one{
+  display: inline-block;
+  width: 20%;
+  margin: 0 auto;
+}
+.bike-pic-1{
+  max-width: 100%;
+  border-radius: 50%;
+}
+.bike-two{
+  display: inline-block;
+  width: 20%;
+  margin: 0 auto;
+}
+.bike-pic-2{
+  border-radius: 50%;
+ max-width: 100%;
+}
+.bike-three{
+  display: inline-block;
+  width: 20%;
+  margin: 0 auto;
+}
+.bike-pic-3{
+  max-width: 100%;
+  border-radius: 50%;
+}
+.image-centering{
+  text-align: center;
+}
+/* Media Queries */
+@media (max-width: 478px){
+  .bike-one{
+    width: 100%;
+  }
+  .bike-two{
+    width: 100%;
+  }
+  .bike-three{
+    width:100%;
+  }
+}
+
+/* Footer */
+.feeter{
+  border-top: 2px solid rgb(140,216,254);
+  text-align: center;
+  color: white;
+  background-color: rgb(140,216,254);
 }
